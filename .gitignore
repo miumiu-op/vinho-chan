@@ -1,0 +1,26 @@
+# 忽略 Hugo 生成的 public 文件夹
+/public/
+
+# 忽略 Hugo 缓存文件夹和临时文件
+/resources/
+/resources/_gen/
+/resources/_gen/assets/
+/resources/_gen/images/
+/resources/_gen/static/
+/resources/_gen/data/
+
+# 忽略本地 Hugo 缓存文件夹
+/.hugo_cache/
+
+# 忽略本地临时文件夹
+/resources/_gen/images/*
+
+# 忽略 macOS 生成的 .DS_Store 文件
+.DS_Store
+
+# 忽略一些编辑器或 IDE 自动生成的文件或文件夹
+.idea/
+.vscode/
+
+# Ignore node_modules directory
+node_modules/
