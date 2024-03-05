@@ -22,7 +22,7 @@ disqusShortname = ""  # "seven-demo"
 [Params]
   description = "Vinho Profile"
   
-  omitCategoryOnMenu = false
+  omitCategoryOnMenu = true
   categoryName = "Category"
   
   showCodeCopyButton = true
@@ -158,39 +158,21 @@ disqusShortname = ""  # "seven-demo"
 
 [menu]
   [[menu.main]]
-    name = "Doc"
+    name = "关于我"
     pre = ""
-    url = "/doc/"
+    url = "/me/"
     weight = 10
   [[menu.main]]
-    name = "Posts"
+    name = "工作项目"
     pre = "pen-tool"
     url = "/posts/"
     weight = 20
   [[menu.main]]
-    name = "Archive"
+    name = "建筑摄影"
     url = "/archive"
     weight = 30
-  [[menu.main]]
-    name = "Goods"
-    pre = ""
-    url = "/goods/"
-    weight = 40
-  [[menu.main]]
-    name = "Releases"
-    pre = "releases"
-    weight = 50
-  [[menu.main]]
-    identifier = "comments-with-waline"
-    name = 'with waline'
-    url = 'https://seven-demo.supcat.cn/'
-    parent = 'Releases'
-    weight = 1
-  [[menu.main]]
-    name = 'with twikoo'
-    url = 'https://seven-demo-with-twikoo.netlify.app/'
-    parent = 'Releases'
-    weight = 2
+
+
 
 [module]
   # It is recommended that Chinese users modify the proxy configuration
