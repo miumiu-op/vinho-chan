@@ -28,7 +28,7 @@ disqusShortname = ""  # "seven-demo"
   showCodeCopyButton = true
   disableToTop = false
   disableToBottom = false
-  enableSearch = true
+  enableSearch = false
   enableHighlight = true
 
   [Params.head]
@@ -48,7 +48,7 @@ disqusShortname = ""  # "seven-demo"
     # whether to omit favicon resource links
     noFavicon = false
     # modern SVG favicon to use in place of older style .png and .ico files
-    svgFavicon = "/favicon.svg"
+    svgFavicon = "/images/logo.png"
     # Safari mask icon color
     iconColor = "#ffffff"
     # Android browser theme color
@@ -58,13 +58,13 @@ disqusShortname = ""  # "seven-demo"
   [Params.logo]
     # Image logo or Text logo
     # Recommended to set image as logo. (prefer)
-    img = "/images/logo.svg"
-    img_dark = "/images/logo-footer.svg"
+    img = "/images/logo.png"
+    img_dark = "/images/logo.png"
 
     # max height not greater than 56 (px). default: 56 (px)
     customLogoHeight = '56'
     customLogoWidth = '120'
-    text = ""
+    text = "Vinho Chan"
 
   # Copyright 
   [Params.copyright]
@@ -86,19 +86,19 @@ disqusShortname = ""  # "seven-demo"
     # customSocial = "extra_social.html"
 
     [Params.society.email]
-      enable = true
+      enable = false
       url = "linzhanqi123@gmail.com"
     [Params.society.github]
-      enable = true
+      enable = false
       url = "https://github.com/mrhelloboy/hugo-theme-seven-demo"
     [Params.society.facebook]
-      enable = true
+      enable = false
       url = ""
     [Params.society.x]  # old twitter
-      enable = true
+      enable = false
       url = ""
     [Params.society.wechat]
-      enable = true
+      enable = false
       OrcodeUrl = ["/images/society/wechat/wechat.jpg"]
 
   # Search-Algolia
@@ -121,7 +121,7 @@ disqusShortname = ""  # "seven-demo"
   
   # Comments
   [Params.comment]
-    enable = true
+    enable = false
     # Note: only works if waline or twikoo is enabled.
     enableCounts = true
     [Params.comment.waline]
@@ -140,7 +140,7 @@ disqusShortname = ""  # "seven-demo"
   # Analytics
   [Params.analytics]
     [Params.analytics.goatcounter]
-      enable = true
+      enable = false
       code = "seven-demo"  
 
 [markup]
@@ -167,11 +167,6 @@ disqusShortname = ""  # "seven-demo"
     pre = "pen-tool"
     url = "/posts/"
     weight = 20
-  [[menu.main]]
-    name = "建筑摄影"
-    url = "/archive"
-    weight = 30
-
 
 
 [module]
@@ -205,3 +200,4 @@ disqusShortname = ""  # "seven-demo"
   [[build.cachebusters]]
     source = "assets/.*\\.(.*)$"
     target = "$1"
+
