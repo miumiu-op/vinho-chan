@@ -1,4 +1,4 @@
-baseURL = 'https://seven-demo.supcat.cn/'
+baseURL = 'https://vinho-chan.vercel.app/'
 languageCode = 'zh-CN'
 title = 'Vinho Chan 的个人网站'
 hasCJKLanguage = true
