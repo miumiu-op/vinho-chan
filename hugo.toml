@@ -1,4 +1,4 @@
-baseURL = 'https://vinho-chan.vercel.app/'
+baseURL = 'https://vinhochan.github.io/'
 languageCode = 'zh-CN'
 title = 'Vinho Chan 的个人网站'
 hasCJKLanguage = true
