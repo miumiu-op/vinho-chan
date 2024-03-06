@@ -1336,21 +1336,17 @@ video {
 .border-transparent {
   border-color: transparent;
 }
+.bg-\[\#0b9b8a\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(11 155 138 / var(--tw-bg-opacity));
+}
 .bg-\[\#239dac\] {
   --tw-bg-opacity: 1;
   background-color: rgb(35 157 172 / var(--tw-bg-opacity));
 }
-.bg-\[\#8ed7e3\] {
+.bg-\[\#c8484e\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(142 215 227 / var(--tw-bg-opacity));
-}
-.bg-\[\#e8c5a9\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(232 197 169 / var(--tw-bg-opacity));
-}
-.bg-\[\#f18788\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(241 135 136 / var(--tw-bg-opacity));
+  background-color: rgb(200 72 78 / var(--tw-bg-opacity));
 }
 .bg-blue-100 {
   --tw-bg-opacity: 1;
