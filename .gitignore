@@ -1,5 +1,3 @@
-# 忽略 Hugo 生成的 public 文件夹
-/public/
 
 # 忽略 Hugo 缓存文件夹和临时文件
 /resources/
