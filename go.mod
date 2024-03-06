@@ -1,4 +1,4 @@
-module github.com/miumiu-op/vinho-chan
+module github.com/vinhochan/vinho-chan
 
 go 1.22.0
 
